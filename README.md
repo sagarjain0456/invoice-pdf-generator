@@ -1,6 +1,6 @@
 # Invoice PDF Generator
 
-# Setup Instructions for Windows OS userss:
+# Setup Instructions for Windows OS users:
 ## Backend (FastAPI)
 
 1. Open a terminal and navigate to the backend folder:
