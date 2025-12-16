@@ -3,9 +3,9 @@
 # Setup Instructions for Windows OS users:
 ## Backend (FastAPI)
 
-1. Install Python (if not already installed)
-Download the latest Python installer from https://www.python.org/downloads/
-During installation, make sure to check "Add Python to PATH"
+1. Install Python (if not already installed):
+a) Download the latest Python installer from https://www.python.org/downloads/
+b) During installation, make sure to check "Add Python to PATH"
 
 2. Open a terminal and navigate to the backend folder:
 cd backend
