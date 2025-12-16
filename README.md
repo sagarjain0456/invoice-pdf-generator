@@ -3,19 +3,23 @@
 # Setup Instructions for Windows OS users:
 ## Backend (FastAPI)
 
-1. Open a terminal and navigate to the backend folder:
+1. Install Python (if not already installed)
+Download the latest Python installer from https://www.python.org/downloads/
+During installation, make sure to check "Add Python to PATH"
+
+2. Open a terminal and navigate to the backend folder:
 cd backend
 
-2. Create a Python virtual environment:
+3. Create a Python virtual environment:
 python -m venv venv
 
-3. Activate the virtual environment:
+4. Activate the virtual environment:
 venv\Scripts\activate
 
-4. Install the required dependencies:
+5. Install the required dependencies:
 pip install -r requirements.txt
 
-5. Start the FastAPI server:
+6. Start the FastAPI server:
 uvicorn main:app --reload
 
 The backend will now run at: http://127.0.0.1:8000
@@ -42,19 +46,23 @@ The frontend will now run at: http://localhost:3000
 # Setup Instructions for MacOS and Linux OS users:
 ## Backend (FastAPI)
 
-1. Open a terminal and navigate to the backend folder:
+1. Install Python (if not already installed)
+Download the latest Python installer from https://www.python.org/downloads/
+During installation, make sure to check "Add Python to PATH"
+
+2. Open a terminal and navigate to the backend folder:
 cd backend
 
-2. Create a Python virtual environment:
+3. Create a Python virtual environment:
 python3 -m venv venv
 
-3. Activate the virtual environment:
+4. Activate the virtual environment:
 source venv/bin/activate
 
-4. Install the required dependencies:
+5. Install the required dependencies:
 pip install -r requirements.txt
 
-5. Start the FastAPI server:
+6. Start the FastAPI server:
 uvicorn main:app --reload
 
 The backend will now run at: http://127.0.0.1:8000
