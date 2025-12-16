@@ -1,5 +1,45 @@
 # Invoice PDF Generator
 
+# Setup Instructions for Windows OS userss:
+## Backend (FastAPI)
+
+1. Open a terminal and navigate to the backend folder:
+cd backend
+
+2. Create a Python virtual environment:
+python -m venv venv
+
+3. Activate the virtual environment:
+venv\Scripts\activate
+
+4. Install the required dependencies:
+pip install -r requirements.txt
+
+5. Start the FastAPI server:
+uvicorn main:app --reload
+
+The backend will now run at: http://127.0.0.1:8000
+
+## Frontend (ReactJS)
+
+Open a new terminal (keep backend running) and do the following:
+
+1. Navigate to the frontend folder:
+cd frontend
+
+2. Install Node.js dependencies:
+npm install
+
+3. Start the React development server:
+npm start
+The frontend will now run at: http://localhost:3000
+
+## Notes
+- Make sure the backend server is running before submitting the invoice form on the frontend.
+- After filling the invoice form in the browser, clicking **Generate PDF** will download the invoice.
+
+
+
 This is a full-stack web application built using ReactJS (frontend) and FastAPI (backend). The application allows users to enter invoice details, preview the invoice in real time, and generate a downloadable PDF invoice.
 
 Tech Stack
@@ -55,29 +95,6 @@ invoice-pdf-generator/
 │   ├── requirements.txt
 │   └── ...
 └── README.md
-
-Setup Instructions
-
-Backend Setup (FastAPI)
-1. Navigate to the backend directory:
-   cd backend
-2. Create and activate a virtual environment:
-   python -m venv venv
-   venv\Scripts\activate
-3. Install dependencies:
-   pip install -r requirements.txt
-4. Start the server:
-   uvicorn main:app --reload
-Backend will run at http://127.0.0.1:8000
-
-Frontend Setup (ReactJS)
-1. Navigate to the frontend directory:
-   cd frontend
-2. Install dependencies:
-   npm install
-3. Start the development server:
-   npm start
-Frontend will run at http://localhost:3000
 
 API Details
 
