@@ -28,13 +28,21 @@ The backend will now run at: http://127.0.0.1:8000
 
 Open a new terminal (keep backend running) and do the following:
 
-1. Navigate to the frontend folder:
+1. For users who do not have Node.js / npm installed
+ a) Download Node.js from https://nodejs.org/
+ b) Run the installer and make sure to check “Add to PATH” during installation
+ c) Close and reopen your terminal, then check installation:
+    node -v
+    npm -v
+Both commands should show a version number
+
+2. Navigate to the frontend folder:
 cd frontend
 
-2. Install Node.js dependencies:
+3. Install Node.js dependencies:
 npm install
 
-3. Start the React development server:
+4. Start the React development server:
 npm start
 The frontend will now run at: http://localhost:3000
 
